@@ -1,0 +1,22 @@
+.nav {
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.nav a:hover {
+  background-color: #3d2f2f;
+}
+
+.nav .link {
+  margin: auto;
+  text-decoration: none;
+  text-align: center;
+  color: #ffffff;
+  border-radius: 4px;
+  width: 100px;
+}
+/*# sourceMappingURL=navigation.module.css.map */

@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+body {
+  font: 62.5%/1.5;
+  color: white;
+  text-align: center;
+  font-size: 1rem;
+}
+
+#root {
+  background-color: black;
+}
+
+#wrapper {
+  width: 980px;
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+hr {
+  width: 75%;
+  background-color: white;
+}
+
+.App {
+  background: url("../../images/latte.jpg") center top;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.home-page {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+  color: white;
+  text-align: center;
+  font-family: 'Tangerine', cursive;
+}
+
+.home-page .logo {
+  margin-top: 50px;
+  width: 500px;
+  opacity: 0.6;
+}
+
+.home-page footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: black;
+  text-align: center;
+}
+
+.location-page {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  color: #ffffff;
+  font-family: 'Vollkorn', serif;
+  font-size: 1.4rem;
+  text-align: center;
+}
+
+.location-page img {
+  margin-top: 20px;
+  border-radius: 5px;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.location-page footer {
+  text-align: center;
+  color: black;
+  position: fixed;
+}
+
+.menu {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  color: white;
+  font-family: 'Vollkorn', serif;
+}
+
+.menu img {
+  width: 75%;
+  height: 65%;
+}
+
+.menu .menu-title {
+  width: 50%;
+}
+/*# sourceMappingURL=index.css.map */

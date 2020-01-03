@@ -1,0 +1,17 @@
+.nav {
+  height: 50px;
+  display: flex;
+  justify-content: space-around;
+  a:hover {
+    background-color: rgb(61, 47, 47);
+  }
+
+  .link {
+    margin: auto;
+    text-decoration: none;
+    text-align: center;
+    color: #ffffff;
+    border-radius: 4px;
+    width: 100px;
+  }
+}

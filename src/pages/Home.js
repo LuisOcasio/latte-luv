@@ -13,7 +13,9 @@ const Home = () => {
         path straight” Proverbs 3:5-6
       </section>
       <hr />
-      <Carousel />
+      <div className='carousel'>
+        <Carousel />
+      </div>
       <footer>
         <h1>
           Here to serve you your coffee with "latte luv"

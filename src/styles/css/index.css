@@ -9,7 +9,7 @@ body {
   font: 62.5%/1.5;
   color: white;
   text-align: center;
-  font-size: 1rem;
+  font-size: 1.3rem;
 }
 
 #root {
@@ -84,12 +84,11 @@ hr {
           flex-direction: column;
   color: #ffffff;
   font-family: 'Vollkorn', serif;
-  font-size: 1.4rem;
+  font-size: 1.3rem;
   text-align: center;
 }
 
 .location-page img {
-  margin-top: 20px;
   border-radius: 5px;
   padding: 10px;
   border-radius: 20px;
@@ -119,11 +118,12 @@ hr {
   text-align: center;
   color: white;
   font-family: 'Vollkorn', serif;
+  font-size: 1.3rem;
 }
 
 .menu img {
   width: 75%;
-  height: 65%;
+  height: 520px;
 }
 
 .menu .menu-title {

@@ -96,32 +96,47 @@ body {
 
 .menu-page {
   height: 100vh;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   text-align: center;
   color: white;
   font-family: 'Vollkorn', serif;
   font-size: 1.3rem;
 }
 
-.menu-page img {
+.menu-page .menu-title {
   width: 75%;
-  height: 520px;
 }
 
-.menu-page .menu-title {
-  width: 50%;
+.menu-page .latteluv-menu {
+  width: 75%;
+  height: 520px;
+  border-radius: 5px;
+}
+
+.menu-page .bottom-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 10px;
+}
+
+.menu-page .bottom-section img {
+  width: 250px;
+  height: 250px;
+  border-radius: 5px;
+  opacity: 0.8;
+}
+
+.menu-page footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: black;
+  font-size: 3rem;
+  font-family: 'Tangerine', cursive;
 }
 
 hr {

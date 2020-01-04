@@ -15,9 +15,12 @@ const App = () => {
           <Route path='/menu' component={Menu} />
         </Switch>
         <SocialMedia />
-        <span className='latte-phrase' role='img' aria-label='latte'>
-          Here to serve you your coffee with "latte luv" ☕
-        </span>
+
+        <p>
+          <span className='latte-phrase' role='img' aria-label='latte'>
+            Here to serve you your coffee with "latte luv" ☕
+          </span>
+        </p>
       </div>
     </div>
   );

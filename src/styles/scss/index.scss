@@ -5,7 +5,7 @@
 }
 html,
 body {
-  width: 1100px;
+  width: 100%;
   font: 62.5%/1.5;
   color: white;
   text-align: center;
@@ -13,9 +13,9 @@ body {
   background: url('../../images/latte.jpg') center top;
   background-size: cover;
   background-repeat: no-repeat;
+  overflow-x: hidden;
 }
 #wrapper {
-  width: 980px;
   text-align: left;
   margin-left: auto;
   margin-right: auto;
@@ -34,6 +34,7 @@ hr {
   justify-content: center;
   font-family: 'Tangerine', cursive;
   font-size: 2rem;
+  text-align: center;
 }
 .home-page {
   color: white;
@@ -41,7 +42,7 @@ hr {
   font-family: 'Tangerine', cursive;
   .logo {
     border-radius: 5px;
-    width: 500px;
+    width: 90%;
     opacity: 0.9;
   }
   .logo-section {
@@ -49,6 +50,15 @@ hr {
       font-size: 2.3rem;
       width: 75%;
     }
+  }
+  .carousel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    opacity: 0.9;
+    border-radius: 5px;
+    width: 300px;
   }
 }
 .location-page {
@@ -58,7 +68,7 @@ hr {
   .store-front {
     img {
       border-radius: 5px;
-      width: 500px;
+      width: 100%;
     }
   }
   .location {
@@ -86,18 +96,18 @@ hr {
     width: 75%;
   }
   .latteluv-menu {
-    width: 75%;
+    width: 100%;
     height: 520px;
     border-radius: 5px;
   }
   .bottom-section {
     display: flex;
-    justify-content: space-between;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    flex-direction: column;
     img {
-      width: 250px;
-      height: 250px;
+      margin: auto;
+      margin-top: 10px;
+      width: 220px;
+      height: 220px;
       border-radius: 5px;
       opacity: 0.8;
     }
@@ -117,22 +127,27 @@ hr {
     overflow-x: hidden;
   }
   .home-page {
-    .logo-section .logo {
-      width: 75%;
+    .logo-section {
+      .logo {
+        width: 250px;
+      }
     }
     .carousel {
       display: flex;
+      justify-content: center;
       align-items: center;
       background-color: white;
       opacity: 0.9;
       border-radius: 5px;
-      width: 75%;
+      width: 250px;
     }
   }
   .location-page {
     .store-front {
+      display: flex;
+      justify-content: center;
       img {
-        width: 90%;
+        width: 250px;
       }
     }
     .family-section {
@@ -170,8 +185,7 @@ hr {
   }
   html,
   body {
-    height: 100%;
-    width: 500px;
+    width: 100%;
     overflow-x: hidden;
   }
   .home-page {
@@ -219,50 +233,48 @@ hr {
   }
 }
 
-// @media (max-width: 800px) {
-//   #wrapper {
-//     width: 800px;
-//     .App {
-//       .latte-phrase {
-//         text-align: center;
-//       }
-//     }
-//   }
-//   html,
-//   body {
-//     width: 100%;
-//     overflow-x: hidden;
-//   }
-//   .home-page {
-//     .logo-section .logo {
-//       width: 360px;
-//     }
+@media (min-width: 800px) {
+  #wrapper {
+    width: 500px;
+    .App {
+      text-align: center;
+    }
+  }
+  html,
+  body {
+    width: 100%;
+    overflow-x: hidden;
+  }
+  .home-page {
+    .logo-section .logo {
+      width: 360px;
+    }
 
-//     .carousel {
-//       display: flex;
-//       align-items: center;
-//       background-color: white;
-//       opacity: 0.9;
-//       border-radius: 5px;
-//     }
-//   }
-//   .location-page {
-//     img {
-//       width: 360px;
-//     }
-//     .family-text {
-//       width: 360px;
-//     }
-//   }
-//   .menu-page {
-//     .bottom-section {
-//       display: flex;
-//       justify-content: center;
-//       img {
-//         height: 150px;
-//         width: 200px;
-//         margin: 10px;
-//       }
-//     }
-//   }
-// }
+    .carousel {
+      display: flex;
+      align-items: center;
+      background-color: white;
+      opacity: 0.9;
+      border-radius: 5px;
+    }
+  }
+  .location-page {
+    img {
+      width: 360px;
+    }
+    .family-text {
+      width: 360px;
+    }
+  }
+  .menu-page {
+    .bottom-section {
+      display: flex;
+      justify-content: center;
+      img {
+        height: 150px;
+        width: 200px;
+        margin: 10px;
+      }
+    }
+  }
+}

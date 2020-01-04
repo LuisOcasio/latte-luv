@@ -1,7 +1,8 @@
 import React from 'react';
 import { Route, Switch } from 'react-router-dom';
-import Navigation from '../src/components/Navigation';
 import { Home, Location, Menu } from './pages/index';
+import Navigation from './components/Navigation';
+import SocialMedia from './components/SocialMedia';
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
           <Route path='/location' component={Location} />
           <Route path='/menu' component={Menu} />
         </Switch>
+        <SocialMedia />
         <span className='latte-phrase' role='img' aria-label='latte'>
           "Here to serve you your coffee with "latte luv" ☕
         </span>

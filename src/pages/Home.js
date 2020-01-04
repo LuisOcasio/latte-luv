@@ -21,6 +21,8 @@ const Home = () => {
       <div className='carousel'>
         <Carousel />
       </div>
+
+      <hr />
     </div>
   );
 };

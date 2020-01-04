@@ -24,6 +24,7 @@ const Menu = () => {
         <img src={sandwhich} alt='breakfast sandwhich' />
         <img src={latte} alt='breakfast sandwhich' />
       </div>
+      <hr />
     </div>
   );
 };

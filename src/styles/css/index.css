@@ -27,7 +27,7 @@ body {
 }
 
 .home-page {
-  height: 100vh;
+  height: 100%;
   color: white;
   text-align: center;
   font-family: 'Tangerine', cursive;
@@ -95,7 +95,7 @@ body {
 }
 
 .menu-page {
-  height: 100vh;
+  height: 100%;
   text-align: center;
   color: white;
   font-family: 'Vollkorn', serif;

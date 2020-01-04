@@ -1,19 +1,22 @@
 * {
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
   border: 0;
 }
 
-html,
+html {
+  background-color: black;
+}
+
 body {
+  width: 980px;
   font: 62.5%/1.5;
   color: white;
   text-align: center;
   font-size: 1.3rem;
-}
-
-#root {
-  background-color: black;
+  background: url("../../images/latte.jpg") center top;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 #wrapper {
@@ -23,42 +26,22 @@ body {
   margin-right: auto;
 }
 
-hr {
-  width: 75%;
-  background-color: white;
-}
-
-.App {
-  background: url("../../images/latte.jpg") center top;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
 .home-page {
   height: 100vh;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   color: white;
   text-align: center;
   font-family: 'Tangerine', cursive;
 }
 
 .home-page .logo {
-  margin-top: 50px;
+  border-radius: 5px;
   width: 500px;
-  opacity: 0.6;
+  opacity: 0.5;
 }
 
 .home-page .quote {
-  font-size: 2.2rem;
+  font-size: 3rem;
+  width: 75%;
 }
 
 .home-page footer {
@@ -68,10 +51,11 @@ hr {
   width: 100%;
   color: black;
   text-align: center;
+  font-size: 3rem;
 }
 
 .location-page {
-  height: 100vh;
+  height: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -84,23 +68,33 @@ hr {
           flex-direction: column;
   color: #ffffff;
   font-family: 'Vollkorn', serif;
-  font-size: 1.2rem;
   text-align: center;
 }
 
-.location-page img {
+.location-page .store-front img {
   border-radius: 5px;
-  padding: 10px;
-  border-radius: 20px;
+  width: 500px;
+}
+
+.location-page .location {
+  width: 75%;
+}
+
+.location-page .family-owned {
+  border-radius: 5px;
 }
 
 .location-page footer {
-  text-align: center;
-  color: black;
   position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: black;
+  font-size: 3rem;
+  font-family: 'Tangerine', cursive;
 }
 
-.menu {
+.menu-page {
   height: 100vh;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -121,12 +115,17 @@ hr {
   font-size: 1.3rem;
 }
 
-.menu img {
+.menu-page img {
   width: 75%;
   height: 520px;
 }
 
-.menu .menu-title {
+.menu-page .menu-title {
   width: 50%;
+}
+
+hr {
+  width: 75%;
+  border: 1px solid white;
 }
 /*# sourceMappingURL=index.css.map */

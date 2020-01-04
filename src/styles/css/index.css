@@ -162,5 +162,29 @@ hr {
     opacity: 0.9;
     border-radius: 5px;
   }
+  .location-page img {
+    width: 360px;
+  }
+  .location-page .family-text {
+    width: 360px;
+  }
+  .menu-page .menu .latteluv-menu {
+    display: none;
+  }
+  .menu-page .bottom-section {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .menu-page .bottom-section img {
+    margin: 10px;
+  }
 }
 /*# sourceMappingURL=index.css.map */

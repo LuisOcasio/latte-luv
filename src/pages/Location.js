@@ -27,7 +27,7 @@ const Location = () => {
 
       <hr />
 
-      <div>
+      <div className='family-text'>
         <p>Family owned & operated</p>
         <p>Merv & Marie Beiler</p>&<p>Family</p>
         <img className='family-owned' src={family} alt='family-pic' />

@@ -16,7 +16,7 @@ const App = () => {
         </Switch>
         <SocialMedia />
         <span className='latte-phrase' role='img' aria-label='latte'>
-          "Here to serve you your coffee with "latte luv" ☕
+          Here to serve you your coffee with "latte luv" ☕
         </span>
       </div>
     </div>

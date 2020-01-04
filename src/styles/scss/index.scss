@@ -52,9 +52,6 @@ hr {
   }
 }
 .location-page {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
   color: #ffffff;
   font-family: 'Vollkorn', serif;
   text-align: center;
@@ -71,8 +68,12 @@ hr {
       color: white;
     }
   }
-  .family-owned {
-    border-radius: 5px;
+  .family-section {
+    width: 100%;
+    img {
+      width: 500px;
+      border-radius: 5px;
+    }
   }
 }
 .menu-page {
@@ -102,47 +103,49 @@ hr {
     }
   }
 }
+//mobile 360px
 @media (max-width: 360px) {
   #wrapper {
     width: 360px;
-    .App {
-      .latte-phrase {
-        text-align: center;
-      }
-    }
+  }
+  .App {
+    text-align: center;
   }
   html,
   body {
-    width: 360px;
-    margin: auto;
+    width: 100%;
     overflow-x: hidden;
   }
   .home-page {
     .logo-section .logo {
-      width: 360px;
+      width: 75%;
     }
-
     .carousel {
       display: flex;
       align-items: center;
       background-color: white;
       opacity: 0.9;
       border-radius: 5px;
+      width: 75%;
     }
   }
   .location-page {
-    img {
-      width: 360px;
+    .store-front {
+      img {
+        width: 90%;
+      }
     }
-    .family-text {
-      width: 360px;
+    .family-section {
+      width: 100%;
+      img {
+        width: 324px;
+        border-radius: 5px;
+      }
     }
   }
   .menu-page {
-    .menu {
-      .latteluv-menu {
-        display: none;
-      }
+    .latteluv-menu {
+      display: none;
     }
     .bottom-section {
       display: flex;
@@ -154,6 +157,112 @@ hr {
     }
   }
 }
+//mobile 500px
+@media (min-width: 500px) {
+  #wrapper {
+    width: 500px;
+    .App {
+      text-align: center;
+    }
+  }
+  hr {
+    width: 90%;
+  }
+  html,
+  body {
+    height: 100%;
+    width: 500px;
+    overflow-x: hidden;
+  }
+  .home-page {
+    .logo-section .logo {
+      width: 75%;
+    }
 
-@media (max-width: 500px) {
+    .carousel {
+      display: flex;
+      background-color: white;
+      opacity: 0.9;
+      border-radius: 5px;
+      width: 75%;
+    }
+  }
+  .location-page {
+    .store-front {
+      img {
+        width: 90%;
+      }
+    }
+    .family-section {
+      width: 100%;
+      img {
+        width: 90%;
+        border-radius: 5px;
+      }
+    }
+  }
+  .menu-page {
+    .menu {
+      .latteluv-menu {
+        width: 100%;
+      }
+    }
+    .bottom-section {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      img {
+        width: 140px;
+        height: 150px;
+      }
+    }
+  }
 }
+
+// @media (max-width: 800px) {
+//   #wrapper {
+//     width: 800px;
+//     .App {
+//       .latte-phrase {
+//         text-align: center;
+//       }
+//     }
+//   }
+//   html,
+//   body {
+//     width: 100%;
+//     overflow-x: hidden;
+//   }
+//   .home-page {
+//     .logo-section .logo {
+//       width: 360px;
+//     }
+
+//     .carousel {
+//       display: flex;
+//       align-items: center;
+//       background-color: white;
+//       opacity: 0.9;
+//       border-radius: 5px;
+//     }
+//   }
+//   .location-page {
+//     img {
+//       width: 360px;
+//     }
+//     .family-text {
+//       width: 360px;
+//     }
+//   }
+//   .menu-page {
+//     .bottom-section {
+//       display: flex;
+//       justify-content: center;
+//       img {
+//         height: 150px;
+//         width: 200px;
+//         margin: 10px;
+//       }
+//     }
+//   }
+// }

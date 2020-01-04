@@ -66,16 +66,6 @@ hr {
 }
 
 .location-page {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
   color: #ffffff;
   font-family: 'Vollkorn', serif;
   text-align: center;
@@ -95,7 +85,12 @@ hr {
   color: white;
 }
 
-.location-page .family-owned {
+.location-page .family-section {
+  width: 100%;
+}
+
+.location-page .family-section img {
+  width: 500px;
   border-radius: 5px;
 }
 
@@ -139,17 +134,16 @@ hr {
   #wrapper {
     width: 360px;
   }
-  #wrapper .App .latte-phrase {
+  .App {
     text-align: center;
   }
   html,
   body {
-    width: 360px;
-    margin: auto;
+    width: 100%;
     overflow-x: hidden;
   }
   .home-page .logo-section .logo {
-    width: 360px;
+    width: 75%;
   }
   .home-page .carousel {
     display: -webkit-box;
@@ -161,14 +155,19 @@ hr {
     background-color: white;
     opacity: 0.9;
     border-radius: 5px;
+    width: 75%;
   }
-  .location-page img {
-    width: 360px;
+  .location-page .store-front img {
+    width: 90%;
   }
-  .location-page .family-text {
-    width: 360px;
+  .location-page .family-section {
+    width: 100%;
   }
-  .menu-page .menu .latteluv-menu {
+  .location-page .family-section img {
+    width: 324px;
+    border-radius: 5px;
+  }
+  .menu-page .latteluv-menu {
     display: none;
   }
   .menu-page .bottom-section {
@@ -185,6 +184,65 @@ hr {
   }
   .menu-page .bottom-section img {
     margin: 10px;
+  }
+}
+
+@media (min-width: 500px) {
+  #wrapper {
+    width: 500px;
+  }
+  #wrapper .App {
+    text-align: center;
+  }
+  hr {
+    width: 90%;
+  }
+  html,
+  body {
+    height: 100%;
+    width: 500px;
+    overflow-x: hidden;
+  }
+  .home-page .logo-section .logo {
+    width: 75%;
+  }
+  .home-page .carousel {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    background-color: white;
+    opacity: 0.9;
+    border-radius: 5px;
+    width: 75%;
+  }
+  .location-page .store-front img {
+    width: 90%;
+  }
+  .location-page .family-section {
+    width: 100%;
+  }
+  .location-page .family-section img {
+    width: 90%;
+    border-radius: 5px;
+  }
+  .menu-page .menu .latteluv-menu {
+    width: 100%;
+  }
+  .menu-page .bottom-section {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .menu-page .bottom-section img {
+    width: 140px;
+    height: 150px;
   }
 }
 /*# sourceMappingURL=index.css.map */

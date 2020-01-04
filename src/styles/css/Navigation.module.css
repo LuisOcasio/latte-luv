@@ -8,12 +8,13 @@
 }
 
 .nav a:hover {
-  background-color: #3d2f2f;
+  background-color: #291414;
+  color: black;
 }
 
 .nav .link {
   margin: auto;
-  text-decoration: none;
+  text-decoration: underline;
   text-align: center;
   color: #ffffff;
   border-radius: 4px;

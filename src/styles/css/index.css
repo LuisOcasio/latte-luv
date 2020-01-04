@@ -90,6 +90,11 @@ hr {
   width: 75%;
 }
 
+.location-page .location a {
+  text-decoration: none;
+  color: white;
+}
+
 .location-page .family-owned {
   border-radius: 5px;
 }

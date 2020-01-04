@@ -66,6 +66,10 @@ hr {
   }
   .location {
     width: 75%;
+    a {
+      text-decoration: none;
+      color: white;
+    }
   }
   .family-owned {
     border-radius: 5px;

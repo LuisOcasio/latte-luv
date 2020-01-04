@@ -8,7 +8,7 @@ import gmail from '../images/gmail.png';
 const SocialMedia = () => {
   return (
     <div className='social-media'>
-      <Link>
+      <Link to='https://www.instagram.com/latteluvdrivethru/'>
         <img src={ig} alt='ig icon' />
       </Link>
       <Link>

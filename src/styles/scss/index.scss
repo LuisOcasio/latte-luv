@@ -3,9 +3,7 @@
   padding: 0;
   border: 0;
 }
-html {
-  background-color: black;
-}
+html,
 body {
   width: 980px;
   font: 62.5%/1.5;
@@ -22,8 +20,17 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
+hr {
+  width: 75%;
+  border: 1px solid white;
+}
+.latte-phrase {
+  display: flex;
+  justify-content: center;
+  font-family: 'Tangerine', cursive;
+  font-size: 2rem;
+}
 .home-page {
-  height: 100%;
   color: white;
   text-align: center;
   font-family: 'Tangerine', cursive;
@@ -32,22 +39,14 @@ body {
     width: 500px;
     opacity: 0.5;
   }
-  .quote {
-    font-size: 3rem;
-    width: 75%;
-  }
-  footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    color: black;
-    text-align: center;
-    font-size: 3rem;
+  .logo-section {
+    .quote {
+      font-size: 2.3rem;
+      width: 75%;
+    }
   }
 }
 .location-page {
-  height: 100%;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -65,15 +64,6 @@ body {
   }
   .family-owned {
     border-radius: 5px;
-  }
-  footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    color: black;
-    font-size: 3rem;
-    font-family: 'Tangerine', cursive;
   }
 }
 .menu-page {
@@ -101,17 +91,4 @@ body {
       opacity: 0.8;
     }
   }
-  footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    color: black;
-    font-size: 3rem;
-    font-family: 'Tangerine', cursive;
-  }
-}
-hr {
-  width: 75%;
-  border: 1px solid white;
 }

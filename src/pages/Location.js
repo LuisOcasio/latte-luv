@@ -30,13 +30,6 @@ const Location = () => {
         <p>Merv & Marie Beiler</p>&<p>Family</p>
         <img className='family-owned' src={family} alt='family-pic' />
       </div>
-
-      <footer>
-        "Here to serve you your coffee with "latte luv"
-        <span role='img' aria-label='latte'>
-          ☕
-        </span>
-      </footer>
     </div>
   );
 };

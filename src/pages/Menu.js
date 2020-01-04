@@ -24,13 +24,6 @@ const Menu = () => {
         <img src={sandwhich} alt='breakfast sandwhich' />
         <img src={latte} alt='breakfast sandwhich' />
       </div>
-
-      <footer>
-        "Here to serve you your coffee with "latte luv"
-        <span role='img' aria-label='latte'>
-          ☕
-        </span>
-      </footer>
     </div>
   );
 };

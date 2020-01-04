@@ -13,6 +13,9 @@ const App = () => {
           <Route path='/location' component={Location} />
           <Route path='/menu' component={Menu} />
         </Switch>
+        <span className='latte-phrase' role='img' aria-label='latte'>
+          "Here to serve you your coffee with "latte luv" ☕
+        </span>
       </div>
     </div>
   );

@@ -21,13 +21,6 @@ const Home = () => {
       <div className='carousel'>
         <Carousel />
       </div>
-
-      <footer>
-        "Here to serve you your coffee with "latte luv"
-        <span role='img' aria-label='latte'>
-          ☕
-        </span>
-      </footer>
     </div>
   );
 };

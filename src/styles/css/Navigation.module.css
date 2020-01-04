@@ -8,16 +8,17 @@
 }
 
 .nav a:hover {
-  background-color: #291414;
-  color: black;
+  background-color: black;
+  opacity: 0.4;
+  color: white;
 }
 
 .nav .link {
   margin: auto;
   text-decoration: underline;
   text-align: center;
-  color: #ffffff;
+  color: silver;
   border-radius: 4px;
-  width: 100px;
+  width: 130px;
 }
 /*# sourceMappingURL=navigation.module.css.map */

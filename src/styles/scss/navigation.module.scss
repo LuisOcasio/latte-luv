@@ -3,16 +3,17 @@
   display: flex;
   justify-content: space-around;
   a:hover {
-    background-color: rgb(41, 20, 20);
-    color: black;
+    background-color: black;
+    opacity: 0.4;
+    color: white;
   }
 
   .link {
     margin: auto;
     text-decoration: underline;
     text-align: center;
-    color: #ffffff;
+    color: silver;
     border-radius: 4px;
-    width: 100px;
+    width: 130px;
   }
 }

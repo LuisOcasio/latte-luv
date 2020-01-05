@@ -107,6 +107,11 @@ hr {
   color: white;
 }
 
+.location-page .location a :hover {
+  opacity: 0.8;
+  color: black;
+}
+
 .location-page .family-section {
   width: 100%;
 }

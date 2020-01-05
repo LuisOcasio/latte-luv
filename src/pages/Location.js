@@ -10,10 +10,12 @@ const Location = () => {
       </div>
 
       <div className='location'>
-        <h1>Our location</h1>
         <a href='https://www.google.com/maps/place/Latte+Luv/@40.0045169,-76.1038483,15z/data=!4m2!3m1!1s0x0:0x2aa8fe4a34bbd9a7?sa=X&ved=2ahUKEwicndLlnermAhXCg-AKHUndCPwQ_BIwCnoECBkQCA'>
+          <h1>Our location</h1>
+          <i class='fas fa-location-arrow'></i>
           <address>3314 Lincoln Hwy. East, Paradise, PA 17562</address>
         </a>
+
         <hr />
         <h4>Established in 2005 & renovated in 2017</h4>
         <p>

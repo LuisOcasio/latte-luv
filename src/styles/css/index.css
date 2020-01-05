@@ -18,6 +18,10 @@ body {
   overflow-x: hidden;
 }
 
+#root {
+  width: 100%;
+}
+
 #wrapper {
   text-align: left;
   margin-left: auto;
@@ -149,7 +153,7 @@ hr {
   opacity: 0.8;
 }
 
-@media (min-width: 360px) {
+@media (max-width: 360px) {
   #wrapper {
     width: 360px;
   }
@@ -277,7 +281,7 @@ hr {
 
 @media (min-width: 800px) {
   #wrapper {
-    width: 500px;
+    width: 800px;
   }
   #wrapper .App {
     text-align: center;

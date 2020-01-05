@@ -148,22 +148,22 @@ hr {
   opacity: 0.8;
 }
 
-@media (max-width: 360px) {
+@media (max-width: 300px) {
   #wrapper {
-    width: 360px;
+    width: 300px;
   }
-  .App {
+  #wrapper .App {
     text-align: center;
   }
-  html,
-  body {
+  #wrapper html,
+  #wrapper body {
     width: 100%;
     overflow-x: hidden;
   }
-  .home-page .logo-section .logo {
+  #wrapper .home-page .logo-section .logo {
     width: 250px;
   }
-  .home-page .carousel {
+  #wrapper .home-page .carousel {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -178,7 +178,7 @@ hr {
     border-radius: 5px;
     width: 250px;
   }
-  .location-page .store-front {
+  #wrapper .location-page .store-front {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -186,20 +186,20 @@ hr {
         -ms-flex-pack: center;
             justify-content: center;
   }
-  .location-page .store-front img {
+  #wrapper .location-page .store-front img {
     width: 250px;
   }
-  .location-page .family-section {
+  #wrapper .location-page .family-section {
     width: 100%;
   }
-  .location-page .family-section img {
+  #wrapper .location-page .family-section img {
     width: 324px;
     border-radius: 5px;
   }
-  .menu-page .latteluv-menu {
+  #wrapper .menu-page .latteluv-menu {
     display: none;
   }
-  .menu-page .bottom-section {
+  #wrapper .menu-page .bottom-section {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -211,7 +211,7 @@ hr {
         -ms-flex-align: center;
             align-items: center;
   }
-  .menu-page .bottom-section img {
+  #wrapper .menu-page .bottom-section img {
     margin: 10px;
   }
 }

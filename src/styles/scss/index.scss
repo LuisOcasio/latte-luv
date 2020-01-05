@@ -114,66 +114,67 @@ hr {
   }
 }
 //mobile 360px
-@media (max-width: 360px) {
+@media (max-width: 300px) {
   #wrapper {
-    width: 360px;
-  }
-  .App {
-    text-align: center;
-  }
-  html,
-  body {
-    width: 100%;
-    overflow-x: hidden;
-  }
-  .home-page {
-    .logo-section {
-      .logo {
-        width: 250px;
-      }
+    width: 300px;
+
+    .App {
+      text-align: center;
     }
-    .carousel {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      background-color: white;
-      opacity: 0.9;
-      border-radius: 5px;
-      width: 250px;
-    }
-  }
-  .location-page {
-    .store-front {
-      display: flex;
-      justify-content: center;
-      img {
-        width: 250px;
-      }
-    }
-    .family-section {
+    html,
+    body {
       width: 100%;
-      img {
-        width: 324px;
+      overflow-x: hidden;
+    }
+    .home-page {
+      .logo-section {
+        .logo {
+          width: 250px;
+        }
+      }
+      .carousel {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+        opacity: 0.9;
         border-radius: 5px;
+        width: 250px;
       }
     }
-  }
-  .menu-page {
-    .latteluv-menu {
-      display: none;
+    .location-page {
+      .store-front {
+        display: flex;
+        justify-content: center;
+        img {
+          width: 250px;
+        }
+      }
+      .family-section {
+        width: 100%;
+        img {
+          width: 324px;
+          border-radius: 5px;
+        }
+      }
     }
-    .bottom-section {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      img {
-        margin: 10px;
+    .menu-page {
+      .latteluv-menu {
+        display: none;
+      }
+      .bottom-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        img {
+          margin: 10px;
+        }
       }
     }
   }
 }
 //mobile 500px
-@media only screen and (min-width: 500px) {
+@media (min-width: 500px) {
   #wrapper {
     width: 500px;
     .App {
@@ -233,7 +234,7 @@ hr {
   }
 }
 
-@media only screen and (min-width: 800px) {
+@media (min-width: 800px) {
   #wrapper {
     width: 500px;
     .App {

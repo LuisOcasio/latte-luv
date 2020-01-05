@@ -115,9 +115,9 @@ hr {
   }
 }
 //mobile 360px
-@media (max-width: 300px) {
+@media (min-width: 360px) {
   #wrapper {
-    width: 300px;
+    width: 360px;
 
     .App {
       text-align: center;

@@ -15,7 +15,7 @@ const Carousel = () => {
 
   React.useEffect(() => {
     const timer = setInterval(() => {
-      if (index === 4) {
+      if (index === 3) {
         setIndex(0);
       } else {
         setIndex((prev) => prev + 1);

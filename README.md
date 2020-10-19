@@ -1,5 +1,7 @@
 ![Screen Shot 2020-10-19 at 11 21 21 AM](https://user-images.githubusercontent.com/45818985/96471762-ace4b580-11fd-11eb-95ae-566ed930800e.png)
 
+Visit the site here! https://latteluv.netlify.app/
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
